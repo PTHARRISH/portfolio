@@ -8,6 +8,14 @@
     <link rel="stylesheet" href="Style\style.css"/>
     <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+</script>
+<script type="text/javascript">
+   (function(){
+      emailjs.init("wesVNjFlxGduOl5kN");
+   })();
+</script>
 </head>
 <body>
     <!---Headed section-->
@@ -21,10 +29,13 @@
             <div class="nav_menu" id="nav_menu">
                 <ul class="nav_list">
                     <li class="nav_items"><a href="#home" class="nav_link active">Home</a></li>
-                    <li class="nav_items"><a href="#about" class="nav_link active">About Me</a></li>
+                    <li class="nav_items"><a href="#about" class="nav_link active">About</a></li>
                     <li class="nav_items"><a href="#skills" class="nav_link active">Skills</a></li>
                     <li class="nav_items"><a href="#qualification" class="nav_link active">Qualification</a></li>
+                    <li class="nav_items"><a href="#services" class="nav_link active">Services</a></li>
+                    <li class="nav_items"><a href="#works" class="nav_link active">Works</a></li>
                     <li class="nav_items"><a href="#contact" class="nav_link active">Contact</a></li>
+                    
                     <li class="nav_items"><div class="nav__btns">
                         <i class='bx bx-moon change-theme' id="theme-button"></i>
                     </div></li>
@@ -46,10 +57,10 @@
             </div>
 
             <div class="home_social">
-                <a href="#" class="home_social-icon"><i class='bx bxl-facebook-circle' ></i></a>
-                <a href="#" class="home_social-icon"><i class='bx bxl-instagram' ></i></a>
-                <a href="#" class="home_social-icon"><i class='bx bxl-github' ></i></a>
-                <a href="#" class="home_social-icon"><i class='bx bxl-linkedin-square'></i></a>
+                <a href="https://www.facebook.com/harrish.harrish.1428/" class="home_social-icon"><i class='bx bxl-facebook-circle' ></i></a>
+                <a href="https://www.instagram.com/p.t.harrish/" class="home_social-icon"><i class='bx bxl-instagram' ></i></a>
+                <a href="https://github.com/PTHARRISH" class="home_social-icon"><i class='bx bxl-github' ></i></a>
+                <a href="https:www.linkedin.com/in/harrishpt" class="home_social-icon"><i class='bx bxl-linkedin-square'></i></a>
             </div>
 
             <div class="home_img">
@@ -63,16 +74,12 @@
             <h2 class="section-title">About</h2>
             <div class="about_container bd_grid">
                 <div class="about_img">
-                    <img src="Images/PassportPhoto.jpg" alt="">
+                    <img src="Images/PassportPhoto.png" alt="">
                 </div>
                 <div>
                     <h2 class="about_subtitle">Hi I'm Harrish P T</h2>
-                    <p class="about_text"> forget to mark your final submission for the hackathon.
- 
-                        Ends on: 22nd January, 23:59 hrs (IST)
-                         
-                        Don't miss this golden opportunity to get interviewed with Zepto, Symphony AI, Clix Capital and 9 other top companies across India for roles in Data Science.</p>
-                        <br>
+                    <p class="about_text"> I am seeking knowledge for my carreer i just to want explore in the technological world i can manage the challenges with my strategy. I am mastered in codings.i am the person who steadily concentrated untill my task is completed.I regularly updated myself in the growing world.</p>
+                       
                             <a download="" href="assert/HARRISH PT Resume.pdf" class="button button--flex">Download CV  <i class='bx bxs-download button__icon'></i></a>
                         
                 </div>
@@ -80,70 +87,101 @@
         </section>
         
         <!-- SKILL SECTION -->
-        <section class="skills section" id="skills">
+        <section class="skill section" id="skills">
             <h2 class="section-title">Skills</h2>
-            <div class="skills_container bd_grid">
-                <div>
-                    <h2 class="skills_subtitle">Professional Skills</h2>
-                    <p class="skills_text">Don't miss this golden opportunity to get interviewed and 9 other top companies across India for roles in Data Science
-                    </p>
-                    <!-- SKILLS HTML -->
-                    <div class="skills_data">
-                        <div class="skills_name">
-                            <i class='bx bxl-html5 skills_icon' ></i>
-                            <span class="skill_name">HTML</span>
+            <div class="skill-container">
+                <div class="skill-box">
+                    <div class="skill-title">
+                        <div class="skill-img">
+                            <img src="Images/html-5 (1).png" class="skill-icon">
                         </div>
-                        <div><span class="skill_percentage">90%</span></div>
-                        <div class="skill_bar skill_html"></div>
+                        <h3 class="skill-name">HTML</h3>
                     </div>
-                    <!-- SKILLS CSS -->
-                    <div class="skills_data">
-                        <div class="skills_name">
-                            <i class='bx bxl-css3 skills_icon' ></i>
-                            <span class="skill_name">CSS</span>
+                    <p></p>
+                </div>
+                <div class="skill-box">
+                    <div class="skill-title">
+                        <div class="skill-img">
+                            <img src="Images/file_type_css_icon_130661.png" class="skill-icon">
                         </div>
-                        <div><span class="skill_percentage">60%</span></div>
-                        <div class="skill_bar skill_css"></div>
+                        <h3 class="skill-name">CSS</h3>
                     </div>
-                    <!-- SKILLS PYTHON -->
-                    <div class="skills_data">
-                        <div class="skills_name">
-                            <i class='bx bxl-python skills_icon' ></i>
-                            <span class="skill_name">Python</span>
+                    <p></p>
+                </div>
+                <div class="skill-box">
+                    <div class="skill-title">
+                        <div class="skill-img">
+                            <img src="Images/bootstrap.png" class="skill-icon">
                         </div>
-                        <div><span class="skill_percentage">80%</span></div>
-                        <div class="skill_bar skill_python"></div>
+                        <h3 class="skill-name">Bootstrap</h3>
                     </div>
-                    <!-- SKILLS PYTHON -->
-                    <div class="skills_data">
-                        <div class="skills_name">
-                            <i class='bx bxl-flask skills_icon' ></i>
-                            <span class="skill_name">Flask</span>
+                    <p></p>
+                </div>
+                <div class="skill-box">
+                    <div class="skill-title">
+                        <div class="skill-img">
+                            <img src="Images/python.png" class="skill-icon">
                         </div>
-                        <div><span class="skill_percentage">70%</span></div>
-                        <div class="skill_bar skill_flask"></div>
+                        <h3 class="skill-name">Python</h3>
                     </div>
-                    <!-- SKILLS Java -->
-                    <div class="skills_data">
-                        <div class="skills_name">
-                            <i class='bx bxl-java skills_icon' ></i>
-                            <span class="skill_name">Java</span>
+                    <p></p>
+                </div>
+                <div class="skill-box">
+                    <div class="skill-title">
+                        <div class="skill-img">
+                            <img src="Images/java.png" class="skill-icon">
                         </div>
-                        <div><span class="skill_percentage">70%</span></div>
-                        <div class="skill_bar skill_java"></div>
+                        <h3 class="skill-name">Java</h3>
                     </div>
-                    <!-- SKILLS CPP -->
-                    <div class="skills_data">
-                        <div class="skills_name">
-                            <i class='bx bxl-c-plus-plus skills_icon' ></i>
-                            <span class="skill_name">C++</span>
+                    <p></p>
+                </div>
+                <div class="skill-box">
+                    <div class="skill-title">
+                        <div class="skill-img">
+                            <img src="Images/c-.png" class="skill-icon">
                         </div>
-                        <div><span class="skill_percentage">75%</span></div>
-                        <div class="skill_bar skill_cpp"></div>
+                        <h3 class="skill-name">C++</h3>
                     </div>
-                    
+                    <p></p>
+                </div>
+                <div class="skill-box">
+                    <div class="skill-title">
+                        <div class="skill-img">
+                            <img src="Images/letter-c.png" class="skill-icon">
+                        </div>
+                        <h3 class="skill-name">C</h3>
+                    </div>
+                    <p></p>
+                </div>
+                <div class="skill-box">
+                    <div class="skill-title">
+                        <div class="skill-img">
+                            <img src="Images/mongodb_original_logo_icon_146424.png" class="skill-icon">
+                        </div>
+                        <h3 class="skill-name">MongoDB</h3>
+                    </div>
+                    <p></p>
+                </div>
+                <div class="skill-box">
+                    <div class="skill-title">
+                        <div class="skill-img">
+                            <img src="Images/prog-flask_icon-icons.com_50797.png" class="skill-icon">
+                        </div>
+                        <h3 class="skill-name">flask</h3>
+                    </div>
+                    <p></p>
+                </div>
+                <div class="skill-box">
+                    <div class="skill-title">
+                        <div class="skill-img">
+                            <img src="Images/django_plain_logo_icon_146558.png" class="skill-icon">
+                        </div>
+                        <h3 class="skill-name">django</h3>
+                    </div>
+                    <p></p>
                 </div>
             </div>
+            
 
         </section>
 
@@ -151,7 +189,7 @@
         <!-- WORK SECTION -->
         <section class="qualification section" id="qualification">
             <h2 class="section-title">Qualification</h2>
-            <div class="qualification_container container">
+            <div class="qualification_container bd_grid">
                 <div class="qualification__tabs">
                     <div class="qualification_button button--flex">
                         <i class='bx bxs-graduation qualification_icon'></i>
@@ -164,7 +202,7 @@
                             <div>
                                 <h3 class="qualification__title">MCA</h3>
                                 <span class="qualification__subtitle">SRM ARTS AND SCIENCE COLLEGE</span>
-                                <div class="qualification__sub">CGPA : 84%</div>
+                                <div class="qualification__sub">GPA : 84% (Pursuing)</div>
                                 <div class="qualification__calender">
                                     <i class='bx bx-calendar qualification_icon' ></i>
                                     2021-2023
@@ -184,7 +222,7 @@
                             <div>
                                 <h3 class="qualification__title">B.SC Computer Science</h3>
                                 <span class="qualification__subtitle">AYYA NADAR JANAKI AMMAL College</span>
-                                <div class="qualification__sub">CGPA : 72%</div>
+                                <div class="qualification__sub">GPA : 72%</div>
                                 <div class="qualification__calender">
                                     <i class='bx bx-calendar qualification_icon' ></i>
                                     2018-2021
@@ -195,7 +233,7 @@
                             <div>
                                 <h3 class="qualification__title">HSC</h3>
                                 <span class="qualification__subtitle">TTL LIONS MATRIC HIGHER SEC SCHOOL</span>
-                                <div class="qualification__sub">CGPA : 65.6%</div>
+                                <div class="qualification__sub">GPA : 65.6%</div>
                                 <div class="qualification__calender">
                                     <i class='bx bx-calendar qualification_icon' ></i>
                                     2021-2023
@@ -216,7 +254,7 @@
                             <div>
                                 <h3 class="qualification__title">SSLC</h3>
                                 <span class="qualification__subtitle">S.H.N.V.HIGHER SECONDARY SCHOOL</span>
-                                <div class="qualification__sub">CGPA : 81%</div>
+                                <div class="qualification__sub">GPA : 81%</div>
                                 <div class="qualification__calender">
                                     <i class='bx bx-calendar qualification_icon' ></i>
                                     2018-2021
@@ -227,8 +265,324 @@
                 </div>
             </div>
         </section>
+
         <!-- CONTACT SECTION -->
-        <section class="qualification section" id="contact"></section>
+        <section class="services section bd_grid" id="services">
+            <h2 class="section-title">Services</h2>            
+            <h3 class="skills_subtitle">What i Offer</h3><br>
+            <div class="services_container container grid">
+                <!-- services content -->
+                <div class="services__content">
+                    <div>
+                        <i class='bx bx-palette services__icon'></i>
+                        <h3 class="services_title">Front-end <br> Designer</h3>
+                    </div>
+                    <span class="button--flex button--small button--link services__button">
+                        View More
+                        <i class='bx bx-right-arrow-alt button__icon' ></i>
+                    </span>
+                    <div class="services_model">
+                        <div class="services_model-content">
+                            <h4 class="services_model-title">Front End<br>Designer</h4>
+                            <i class='bx bx-x services_model-close'></i>
+                            <ul class="services_model-services grid">
+                                <li class="services_model-service">
+                                    <i class='bx bx-check-circle services_model-icon'></i>
+                                    <p>HTML</p>
+                                </li>
+                                <li class="services_model-service">
+                                    <i class='bx bx-check-circle services_model-icon'></i>
+                                    <p>CSS Intermediate level</p>
+                                </li>
+                                <li class="services_model-service">
+                                    <i class='bx bx-check-circle services_model-icon'></i>
+                                    <p>Bootstrap</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- services content -->
+                <div class="services__content">
+                    <div>
+                        <i class='bx bx-code-alt services__icon'></i>
+                        <h3 class="services_title">Web <br> Developer</h3>
+                    </div>
+                    <span class="button--flex button--small button--link services__button">
+                        View More
+                        <i class='bx bx-right-arrow-alt button__icon' ></i>
+                    </span>
+                    <div class="services_model">
+                        <div class="services_model-content">
+                            <h4 class="services_model-title">Web<br>Developer</h4>
+                            <i class='bx bx-x services_model-close'></i>
+                            <ul class="services_model-services grid">
+                                <li class="services_model-service">
+                                    <i class='bx bx-check-circle services_model-icon'></i>
+                                    <p>Programming Language : C, C++, Java, Python</p>
+                                </li>
+                                <li class="services_model-service">
+                                    <i class='bx bx-check-circle services_model-icon'></i>
+                                    <p>Framework : Django, Flask</p>
+                                </li>
+                                <li class="services_model-service">
+                                    <i class='bx bx-check-circle services_model-icon'></i>
+                                    <p>Projects : Virtual Learning Platform For Visually Impaired Students (UG)
+                                    </p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- services content -->
+                <div class="services__content">
+                    <div>
+                        <i class='bx bxs-data services__icon'></i>
+                        <h3 class="services_title">Data<br> Science</h3>
+                    </div>
+                    <span class="button--flex button--small button--link services__button">
+                        View More
+                        <i class='bx bx-right-arrow-alt button__icon' ></i>
+                    </span>
+                    <div class="services_model">
+                        <div class="services_model-content">
+                            <h4 class="services_model-title">Data<br>Science</h4>
+                            <i class='bx bx-x services_model-close'></i>
+                            <ul class="services_model-services grid">
+                                <li class="services_model-service">
+                                    <i class='bx bx-check-circle services_model-icon'></i>
+                                    <p>Pantech E-learning Internship</p>
+                                </li>
+                                <li class="services_model-service">
+                                    <i class='bx bx-check-circle services_model-icon'></i>
+                                    <p>Python for Data Science (NPTEL Certified)</p>
+                                </li>
+                                <li class="services_model-service">
+                                    <i class='bx bx-check-circle services_model-icon'></i>
+                                    <p>Data Science</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!-- services content -->
+                <div class="services__content">
+                    <div>
+                        <i class='bx bx-file-find services__icon'></i>
+                        <h3 class="services_title">Software<br>Tester</h3>
+                    </div>
+                    <span class="button--flex button--small button--link services__button">
+                        View More
+                        <i class='bx bx-right-arrow-alt button__icon' ></i>
+                    </span>
+                    <div class="services_model">
+                        <div class="services_model-content">
+                            <h4 class="services_model-title">Software<br>Tester</h4>
+                            <i class='bx bx-x services_model-close'></i>
+                            <ul class="services_model-services grid">
+                                <li class="services_model-service">
+                                    <i class='bx bx-check-circle services_model-icon'></i>
+                                    <p>Front-end Design</p>
+                                </li>
+                                <li class="services_model-service">
+                                    <i class='bx bx-check-circle services_model-icon'></i>
+                                    <p>Web Development</p>
+                                </li>
+                                <li class="services_model-service">
+                                    <i class='bx bx-check-circle services_model-icon'></i>
+                                    <p>Data Science</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Works Section -->
+        <section class="Projects section bd_grid" id="works">
+            <h2 class="section-title">Works</h2><br>
+            <span class="section-subtitle">My Works</span>
+            <div class="project_container container grid">
+               <div class="works-box">
+                <div>
+                    <a class="work-line" href="">
+                        <div class="works-card">
+                            <div class="work-container">
+                                <div class="top-work">
+                                    <svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" class="work-folder" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path></svg><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path>
+                                    <div class="right">
+                                        <a class="work-git" href="https://github.com/PTHARRISH/Web-Based-Staff-s-Review-For-Students-Performance..git" target="_blank"><svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                                        </svg></a>
+                                        <a class="work-link" href="#" target="_blank"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="32" d="M384 224v184a40 40 0 01-40 40H104a40 40 0 01-40-40V168a40 40 0 0140-40h167.48M336 64h112v112M224 288L440 72"></path></svg></a>
+                                    </div>
+                                </div>
+                                <div class="mid-work">
+                                    <p class="work-title">Web Based Staff’s Review For Students’ Performance</p>
+                                    <p class="work-desc">It is web-based application which is used to evaluate students internal assessments and maintain the academic records </p>
+                                </div>
+                                <div class="bottom-work">
+                                    <small>Asp.NET</small>
+                                    <small>C#</small>
+                                    <small>SQL SERVER</small>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div>
+                    <a class="work-line" href="">
+                        <div class="works-card">
+                            <div class="work-container">
+                                <div class="top-work">
+                                    <svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" class="work-folder" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path></svg><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path>
+                                    <div class="right">
+                                        <a class="work-git" href="https://github.com/PTHARRISH/Virtual-Learning-Platform.git" target="_blank"><svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                                        </svg></a>
+                                        <a class="work-link" href="#" target="_blank"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="32" d="M384 224v184a40 40 0 01-40 40H104a40 40 0 01-40-40V168a40 40 0 0140-40h167.48M336 64h112v112M224 288L440 72"></path></svg></a>
+                                    </div>
+                                </div>
+                                <div class="mid-work">
+                                    <p class="work-title">Virtual learning Platform For Visually Impaired Students</p>
+                                    <p class="work-desc">Virtual Learning Platform for Impaired Students is a web-based application which is used to help the visually impaired students. </p>
+                                </div>
+                                <div class="bottom-work">
+                                    <small>Python</small>
+                                    <small>Flask</small>
+                                    <small>My SQL</small>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div>
+                    <a class="work-line" href="">
+                        <div class="works-card">
+                            <div class="work-container">
+                                <div class="top-work">
+                                    <svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" class="work-folder" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path></svg><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path>
+                                    <div class="right">
+                                        <a class="work-git" href="https://github.com/PTHARRISH/dfsms.git" target="_blank"><svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                                        </svg></a>
+                                        <a class="work-link" href="#" target="_blank"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="32" d="M384 224v184a40 40 0 01-40 40H104a40 40 0 01-40-40V168a40 40 0 0140-40h167.48M336 64h112v112M224 288L440 72"></path></svg></a>
+                                    </div>
+                                </div>
+                                <div class="mid-work">
+                                    <p class="work-title">Dairy Farm Shop Management System</p>
+                                    <p class="work-desc">Dairy Farm Shop Management System is web-based application which manages the products of dairy shop </p>
+                                </div>
+                                <div class="bottom-work">
+                                    <small>Php</small>
+                                    <small> </small>
+                                    <small>My SQL</small>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+               </div>
+            </div>
+            </section>
+
+        <!-- work end -->
+
+        <!-- Contact Section -->
+        <section class="contact section bd_grid" id="contact">
+            <h2 class="section-title">Contact Me</h2>
+            <span class="section-subtitle">Get in touch</span>
+            <div class="contact_container container grid">
+                <div>
+                    <div class="contact-information">
+                        <i class='bx bx-phone-call contact_icon'></i>
+                        <div>
+                            <h3 class="contact-title">Call Me</h3>
+                            <span class="contact-subtitle">+91-8838767837</span>
+                        </div>
+                    </div>
+                    <div class="contact-information">
+                        <i class='bx bx-envelope contact_icon'></i>
+                        <div>
+                            <h3 class="contact-title">Email</h3>
+                            <span class="contact-subtitle">harrishpt@gmail.com</span>
+                        </div>
+                    </div>
+                    <div class="contact-information">
+                        <i class='bx bxs-map contact_icon'></i>
+                        <div>
+                            <h3 class="contact-title">Location</h3>
+                            <span class="contact-subtitle">Chennai-603203</span>
+                        </div>
+                    </div>
+                </div>
+                <form action="" class="contact-form grid">
+                    <div class="contact-inputs grid">
+                        <div class="contact-content">
+                            <label for="" class="contact-label">Name :</label>
+                            <input type="text" placeholder="Enter Your Name" id="name"class="contact-input">
+                        </div>
+                        <div class="contact-content">
+                            <label for="" class="contact-label">Email :</label>
+                            <input type="email" placeholder="Enter Your Email address" id="email"class="contact-input">
+                        </div>
+                    </div>
+                    <div class="contact-content">
+                        <label for=""  class="contact-label">Message :</label>
+                        <textarea name="" id="" cols="0" rows="5" id="message"placeholder="Enter Your Message" class="contact-input"></textarea>
+                    </div>
+                    <div>
+                        <a href="#" class="button button--flex">Send Message  <i class='bx bx-send button__icon'></i></a>
+                    </div>
+                </form>
+            </div>
+
+        </section>
+
+        <!-- footer -->
+        <footer class="footer">
+            <div class="footer__bg">
+                <div class="footer-container container grid">
+                    <div>
+                        <h1 class="footer-title">Harrish PT</h1>
+                        <span class="footer-subtitle">Web Developer</span>
+                    </div>
+                    <ul class="footer-links">
+                        <!-- <li>
+                            <a href="#home" class="footer-link">Home</a>
+                        </li> -->
+                        <!-- <li>
+                            <a href="#about" class="footer-link">About</a>
+                        </li> -->
+                        <li>
+                            <a href="#skills" class="footer-link">Skills</a>
+                        </li>
+                        <!-- <li>
+                            <a href="#qualification" class="footer-link">Qualification</a>
+                        </li> -->
+                        <li>
+                            <a href="#services" class="footer-link">Services</a>
+                        </li>
+                        <li>
+                            <a href="#works" class="footer-link">Works</a>
+                        </li>
+                        <!-- <li>
+                            <a href="#contact" class="footer-link">Contact</a>
+                        </li> -->
+                    </ul>
+                    <div class="footer-socials">
+                        <a href="https://www.facebook.com/harrish.harrish.1428/" target="_blank" class="footer-social"><i class='bx bxl-facebook-circle' ></i></a>
+                        <a href="https://www.instagram.com/p.t.harrish/" target="_blank" class="footer-social"><i class='bx bxl-instagram' ></i></a>
+                        <a href="https://github.com/PTHARRISH" target="_blank" class="footer-social"><i class='bx bxl-github' ></i></a>
+                        <a href="https:www.linkedin.com/in/harrishpt" target="_blank" class="footer-social"><i class='bx bxl-linkedin-square'></i></a>
+                    </div>
+                </div>
+                <p class="footer-copy">Copyright &#169; 2023 Harrish PT. All Right Reserved. </p>
+            </div>
+        </footer>
+        <!-- footer end -->
+
+
     </main>
 
     <!-- script section -->

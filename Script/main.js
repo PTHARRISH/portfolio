@@ -56,3 +56,51 @@ themeButton.addEventListener('click', () => {
     localStorage.setItem('selected-theme', getCurrentTheme())
     localStorage.setItem('selected-icon', getCurrentIcon())
 })
+
+// service model
+
+const modelViews= document.querySelectorAll('.services_model'),
+    modelBtns=document.querySelectorAll('.services__button'),
+    modelCloses=document.querySelectorAll('.services_model-close')
+
+let model=function(modelClick){
+    modelViews[modelClick].classList.add('active-model')
+}
+
+modelBtns.forEach((modelBtn,i)=>{
+    modelBtn.addEventListener('click',()=>{
+        model(i)
+    })
+})
+
+modelCloses.forEach((modelClose)=>{
+    modelClose.addEventListener('click',()=>{
+        modelViews.forEach((modelView)=>{
+            modelView.classList.remove('active-model')
+        })
+    })
+})
+
+function sendMail(){
+    var params={
+        name:document.getElementById("name").value,
+        email:document.getElementById("email").value,
+        message:document.getElementById("message").value,
+
+    };
+    
+    const serviceID="service_ndlcgvn";
+    const templateID="template_rwl964f";
+    
+    emailjs.send(serviceID,templateID,params)
+    .then(
+        res =>{
+            document.getElementById("name").value ="";
+            document.getElementById("email").value ="";
+            document.getElementById("message").value ="";
+            console.log(res);
+            alert("your message sent successfully")
+        }
+    )
+    .catch(err=>console.log(err));
+}
