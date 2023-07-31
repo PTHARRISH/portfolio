@@ -706,10 +706,7 @@ body.dark-theme{
 .services_model-content{
     position: relative;
     background-color: var(--container-color);
-    margin-left: 1rem;
-    margin-right: 1rem;
-    padding-top: 2rem;
-    padding-bottom: 2rem;
+    padding: 3rem;
     border-radius: .5rem;
 }
 
@@ -1096,6 +1093,7 @@ body.dark-theme{
     } */
 
     .services_model-content{
+        
         width: 450px;
     }
 
