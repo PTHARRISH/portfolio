@@ -704,7 +704,7 @@ body.dark-theme{
 }
 
 .services_model-content{
-    position: relative;
+    position: absolute;
     background-color: var(--container-color);
     padding: 3rem;
     border-radius: .5rem;
