@@ -706,8 +706,8 @@ body.dark-theme{
 .services_model-content{
     position: relative;
     background-color: var(--container-color);
-    padding-left: 4.5rem;
-    padding-right: 4.5rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
     padding-top: 2rem;
     padding-bottom: 2rem;
     border-radius: .5rem;
